@@ -12,34 +12,67 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
 ## Completed:
 
 ### Acquire hardware:
+
   Raspberry Pi 3
+  
   NOIR Night Vision Camera
+  
   RGB LED desktop lamp
+  
   Rasberry Pi infrared reciever / transmitter 
 
 ### Hardware Config
-  Set up Pi as remote SSH server
+
+  Set up Pi as headless SSH server
+  
   Test IR camera in varying lighting conditons
+  
   Test openCV face tracking
+  
   Install TensorFlow, test networks
   
 ### Web server
+
   Register domain name
+  
   Configure web hosting
+  
   Build website template
+  
   
 ## Next:
 
 ### Neural Network Calibration
+
   Find, test accurate emotional recognition model
+  
   Evaluate accuracy for tired/attentive faces
+  
   Acquire training images for tired/attentive faces (scrape image searches)
+  
   Test against emotive model
+  
   Use PCA in SKLearn to model accuracy on tired/attentive faces
   
 ### IR Remote
-  Capture desktop RGB LED lamp color control signals from remote
+
+  Capture desktop RGB LED lamp color control signals from remote with RPi IR reciever board
+  
   Transmit color commands to lamp from Raspberry Pi 3
+  
+### Capture Test Data
+
+  Set camera to record snapshots at set intervals (as defined by the TensorFlow's throughput speed). Start with 30 seconds adjust as necessary.
+  
+  Compare snapshots to model output for heuristic accuracy
+  
+  Reiterate design
+  
+### Web Server
+
+  Implement SQLite databse to record model output snapshots
+  
+  Add DB interface with interactive D3 analytics suite
   
   
   

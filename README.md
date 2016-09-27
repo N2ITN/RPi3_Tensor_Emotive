@@ -77,6 +77,5 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
   
 # Concetual Design
   
-Inline-style: 
 ![alt text](https://github.com/N2ITN/RPi3_Tensor_Emotive/blob/master/images/Neural%20Emotion%20-%20Neural%20Feels.jpg)
 

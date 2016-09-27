@@ -1,4 +1,4 @@
-# RPi3_Tensor_Emotive
+# Emotive IOT Lighting 
 Emotion recognition for attention and focus vs distraction and tiredness, using TensorFlow on Raspberry Pi 3. 
 Pictures captured on the Pi's camera are analyzed by TensorFlow models trained on the Kaggle fer2013 labelled facial emotional recognizion data.
 This data has been well studied and characterized, and contains lables for 7 basic emotions.
@@ -9,27 +9,37 @@ These attributes will be mapped to color changes in a small desktop lamp. Users 
 
 Additionally, the resulting output vectors will be logged in a cloud database, where user's can view their personal data using interactive web frameworks such as D3.
 
-# Done:
-## Acquire hardware:
+## Completed:
+
+### Acquire hardware:
   Raspberry Pi 3
   NOIR Night Vision Camera
   RGB LED desktop lamp
   Rasberry Pi infrared reciever / transmitter 
 
-## Hardware Config
+### Hardware Config
   Set up Pi as remote SSH server
   Test IR camera in varying lighting conditons
   Test openCV face tracking
   Install TensorFlow, test networks
   
- ## Web server
+### Web server
   Register domain name
   Configure web hosting
   Build website template
   
-# TODO:
-  ## Network 
+## Next:
+
+### Neural Network Calibration
   Find, test accurate emotional recognition model
+  Evaluate accuracy for tired/attentive faces
+  Acquire training images for tired/attentive faces (scrape image searches)
+  Test against emotive model
+  Use PCA in SKLearn to model accuracy on tired/attentive faces
+  
+### IR Remote
+  Capture desktop RGB LED lamp color control signals from remote
+  Transmit color commands to lamp from Raspberry Pi 3
   
   
   

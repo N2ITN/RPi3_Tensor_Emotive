@@ -69,8 +69,10 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
   Reiterate design
   
 ### Web Server
+   
+  Write network protocols to SSH of protobuf'd Python dictionary objects
 
-  Implement SQLite databse to record model output snapshots
+  Implement redis databsse to record model output snapshots
   
   Add DB interface with interactive D3 analytics suite
   

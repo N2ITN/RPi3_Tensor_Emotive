@@ -13,84 +13,79 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
 
 ### Scope and vision:
 
-  - [x] Action-ready conceptual diagram based on domain research
+  Action-ready conceptual diagram based on domain research
 
 ### Acquire hardware:
+ 
+  * NOIR Night Vision Camera
+  
+  * Rasberry Pi infrared reciever / transmitter  
+  
+  * RGB LED desktop light
 
-#### Raspberry Pi 3 and peripherals
-  
-  - [x] NOIR Night Vision Camera
-  
-  - [x] Rasberry Pi infrared reciever / transmitter 
-  
-#### Lighting  
-  
-  - [x] RGB LED desktop light
+### RPi Hardware
 
-### Initial Config RPi
+  * Set up Pi as headless SSH server
+  
+  * Test IR camera in varying lighting conditons
 
-#### Hardware
-  - [x] Set up Pi as headless SSH server
+  * Overlock CPU to 1400 GHz, memory to 500
   
-  - [x] Test IR camera in varying lighting conditons
+  * Activate dynamic GPU / RAM allocations
+  
+### RPi Software Config
+  
+  * Test openCV face tracking (Haar cascade)
+  
+  * Install and compare TensorFlow, Caffe
+  
+### Web server
 
-  - [x] Overlock CPU to 1400 GHz, memory to 500
+  * Register domain name
   
-  - [x] Activate dynamic GPU / RAM allocations
+  * Configure web hosting
   
-#### Software
-  
-  - [x] Test openCV face tracking
-  
-  - [x] Install and compare TensorFlow, Caffe
-  
-### [x] Web server
-
-  - [x] Register domain name
-  
-  - [x] Configure web hosting
-  
-  - [x] Build website template
+  * Build website template
   
   
 # In progress:
 
 ### Neural Network Calibration
 
-  Find, test accurate emotional recognition model
+  * Find, test accurate emotional recognition model
   
-  Evaluate accuracy for tired/attentive faces
+  * Evaluate accuracy for tired/attentive faces
   
-  Acquire images of tired/attentive faces for fine tuning
+  * Acquire/label images of tired/attentive faces for fine tuning
   
-  Test against emotive model
+  * Test against emotive model
   
-  Use PCA in SKLearn to model accuracy on tired/attentive faces
+  * Use PCA in SKLearn to model accuracy on tired/attentive faces
   
   
 # Next:  
   
 ### IR Remote
 
-  Capture desktop RGB LED lamp color control signals from remote with RPi IR reciever board
+  * Capture desktop RGB LED lamp color control signals from remote with RPi IR reciever board
   
-  Transmit color commands to lamp from Raspberry Pi 3
+  * Transmit color commands to lamp from Raspberry Pi 3
   
 ### Capture Test Data
 
-  Set camera to record snapshots at set intervals (as defined by the TensorFlow's throughput speed). Start with 30 seconds adjust as necessary.
+  * Set camera to record snapshots at set intervals (as defined by the TensorFlow's throughput speed). Target ~= 30 seconds. Adjust as necessary.
   
-  Compare snapshots to model output for heuristic accuracy
+  * Compare snapshots to model output for heuristic accuracy
   
-  Reiterate design
+  * Reiterate design
   
-### Web Server
+### Web Server Host
    
-  Write network protocols to SSH of protobuf'd Python dictionary objects
+  * Write network protocols to SSH of protobuf'd Python dictionary objects
 
-  Implement redis databsse to record model output snapshots
+  * Implement redis databsse to record model output snapshots
   
-  Add DB interface with interactive D3 analytics suite
+  * Add DB interface with interactive D3 analytics suite
   
   
 # Conceptual Design

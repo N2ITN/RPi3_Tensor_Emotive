@@ -9,51 +9,59 @@ These attributes will be mapped to color changes in a small desktop lamp. Users 
 
 Additionally, the resulting output vectors will be logged in a cloud database, where user's can view their personal data using interactive web frameworks such as D3.
 
-# Completed:
+# Completed Tasks:
 
+### Scope and vision:
 
-### [x] Acquire hardware:
+  - [x] Action-ready conceptual diagram based on domain research
 
-  Action-ready conceptual diagram based on domain research
+### Acquire hardware:
 
-### [x] Acquire hardware:
-
-  Raspberry Pi 3
+#### Raspberry Pi 3 and peripherals
   
-  NOIR Night Vision Camera
+  - [x] NOIR Night Vision Camera
   
-  RGB LED desktop lamp
+  - [x] Rasberry Pi infrared reciever / transmitter 
   
-  Rasberry Pi infrared reciever / transmitter 
+#### Lighting  
+  
+  - [x] RGB LED desktop light
 
-### [x] Hardware Config
+### Initial Config RPi
 
-  Set up Pi as headless SSH server
+#### Hardware
+  - [x] Set up Pi as headless SSH server
   
-  Test IR camera in varying lighting conditons
+  - [x] Test IR camera in varying lighting conditons
+
+  - [x] Overlock CPU to 1400 GHz, memory to 500
   
-  Test openCV face tracking
+  - [x] Activate dynamic GPU / RAM allocations
   
-  Install TensorFlow, test networks
+#### Software
+  
+  - [x] Test openCV face tracking
+  
+  - [x] Install and compare TensorFlow, Caffe
   
 ### [x] Web server
 
-  Register domain name
+  - [x] Register domain name
   
-  Configure web hosting
+  - [x] Configure web hosting
   
-  Build website template
+  - [x] Build website template
   
   
 # In progress:
 
-### [ ] Neural Network Calibration
+### Neural Network Calibration
 
   Find, test accurate emotional recognition model
   
   Evaluate accuracy for tired/attentive faces
   
-  [x] Acquire images of tired/attentive faces for fine tuning
+  Acquire images of tired/attentive faces for fine tuning
   
   Test against emotive model
   

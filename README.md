@@ -9,9 +9,14 @@ These attributes will be mapped to color changes in a small desktop lamp. Users 
 
 Additionally, the resulting output vectors will be logged in a cloud database, where user's can view their personal data using interactive web frameworks such as D3.
 
-## Completed:
+# Completed:
 
-### Acquire hardware:
+
+### [x] Acquire hardware:
+
+  Action-ready conceptual diagram based on domain research
+
+### [x] Acquire hardware:
 
   Raspberry Pi 3
   
@@ -21,7 +26,7 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
   
   Rasberry Pi infrared reciever / transmitter 
 
-### Hardware Config
+### [x] Hardware Config
 
   Set up Pi as headless SSH server
   
@@ -31,7 +36,7 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
   
   Install TensorFlow, test networks
   
-### Web server
+### [x] Web server
 
   Register domain name
   
@@ -40,19 +45,22 @@ Additionally, the resulting output vectors will be logged in a cloud database, w
   Build website template
   
   
-## Next:
+# In progress:
 
-### Neural Network Calibration
+### [ ] Neural Network Calibration
 
   Find, test accurate emotional recognition model
   
   Evaluate accuracy for tired/attentive faces
   
-  Acquire training images for tired/attentive faces (scrape image searches)
+  [x] Acquire images of tired/attentive faces for fine tuning
   
   Test against emotive model
   
   Use PCA in SKLearn to model accuracy on tired/attentive faces
+  
+  
+# Next:  
   
 ### IR Remote
 
